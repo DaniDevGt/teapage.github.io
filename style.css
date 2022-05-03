@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+}
+
+li, a{
+    text-decoration: underline
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid seashell;
+}
+
+.imagen{
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+a{
+    color: seashell;
+}
+
+.nav-links{
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #ced4da;
+}
+
+/* Section 1 */
+
+.main-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-one{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.child-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: black;
+    flex-direction: column;
+    width: 1200px;
+    height: 110px;
+    line-height: 1px;
+}
+
+/* Section 2 */
+
+.main-two{
+    margin-top: 70px;
+}
+
+.img-one{
+    height: 200px;
+    width: 300px;
+    margin: 0 25px;
+}
+
+.title{
+    text-align: center;
+}
+
+.container-two{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.tea-location{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.child-two{
+    text-align: center;
+}
+
+
+/* Section 3 */
+
+.main-tree{
+    margin: 70px 0;
+    background-image: url(../images/img-locations-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.title-two{
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: -25px;
+}
+
+.child-tree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 40px;
+    opacity: 1;
+}
+
+.locations{
+    display: flex;
+    justify-content: center;
+}
+
+/* Section 4 */
+
+.main-four{
+    text-align: center;
+    margin-top: -25px;
+    height: 200px;
+}
+
+footer{
+    margin-left: 20px;
+}
